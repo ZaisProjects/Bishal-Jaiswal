@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bishal Jaiswal — Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bishal Jaiswal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://drive.google.com/file/d/1YQ3Kx7fApKc3DNTVkrbbnVvmzkxPE7Js/view?usp=sharing" data-bs-toggle="modal" data-bs-target="#resumeModal">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <h1>Hi, I'm <span class="highlight">Bishal Jaiswal</span></h1>
+                    <p>Full Stack Web Developer</p>
+                    <p>I build beautiful and functional web experiences</p>
+                    <a href="#projects"><button class="btn btn-primary-custom">View My Work</button></a> 
+                </div>
+                <div class="col-lg-6 text-center">
+                    <!-- Replace 'your-image.jpg' with your actual image path -->
+                    <img src="https://res.cloudinary.com/dvhrv6r7k/image/upload/v1756613295/ExploreCircle/ybgbqcq2z4qg7khzpdc6.png" alt="Profile Picture" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p class="text-center" style="font-size: 1.1rem; line-height: 1.8;">
+                        I’m a B.Tech Computer Science Engineering student at NIT Rourkela'27. 
+                        I love building real-world web apps and exploring AI integration.
+                        I'm a passionate developer with expertise in creating modern web applications. 
+                        With a strong foundation in both front-end and back-end technologies, I love 
+                        bringing ideas to life through clean code and intuitive design. I'm always eager 
+                        to learn new technologies and take on challenging projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="skill-card">
+                        <i class="fas fa-code skill-icon"></i>
+                        <h4>Frontend Development</h4>
+                        <p>HTML, CSS, JavaScript, React, Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-card">
+                        <i class="fas fa-server skill-icon"></i>
+                        <h4>Backend Development</h4>
+                        <p>Node.js, Express.js, Database Management</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-card">
+                        <i class="fas fa-database skill-icon"></i>
+                        <h4>Database</h4>
+                        <p>MySQL, MongoDB</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-card">
+                        <i class="fas fa-tools skill-icon"></i>
+                        <h4>Others Tech & Tools</h4>
+                        <p>Java, Python, Git, Github, VS Code</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="project-body">
+                            <h4>Venue Booking Platform</h4>
+                            <p>A full-featured online venue booking platform with payment integration.</p>
+                            <a href="https://bookmyvenue-nf5p.onrender.com/" class="btn btn-primary-custom btn-sm" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            🎮
+                        </div>
+                        <div class="project-body">
+                            <h4>Simson Say Game</h4>
+                            <p>A classic “Simon Says” memory game with featuring score tracking and interactive UI.</p>
+                            <a href="https://zaisprojects.github.io/SimonSays/" class="btn btn-primary-custom btn-sm">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <div class="project-body">
+                            <h4>Spotify Clone</h4>
+                            <p>A static Spotify Clone built using only HTML and CSS.</p>
+                            <a href="https://zaisprojects.github.io/Spotify-Clone/" class="btn btn-primary-custom btn-sm">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="certifications" class="certifications-section">
+        <div class="container">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="cert-card">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div>
+                                <h4 class="cert-title">Oracle AI Foundation Certification</h4>
+                                <p class="cert-issuer">Oracle</p>
+                            </div>
+                        </div>
+                        <div class="cert-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            Issued: October 2025
+                        </div>
+                        <div class="cert-credential">
+                            <div class="credential-label">
+                                Gained understanding of AI, ML, DL and GenAI core concepts, models, and real-world applications.
+                            </div>
+                        </div>
+                        <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=EB0A370969A1F7D9848959B0ABCC9B02D9CF0F323EF20C2E1B605D1357EBEE30" class="cert-verify-btn text-center" target="_blank">
+                            <i class="fas fa-check-circle"></i> Verify Certificate
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="cert-card">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div>
+                                <h4 class="cert-title">Oracle Generative AI Professional</h4>
+                                <p class="cert-issuer">Oracle</p>
+                            </div>
+                        </div>
+                        <div class="cert-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            Issued: October 2025
+                        </div>
+                        <div class="cert-credential">
+                            <div class="credential-label">
+                                Strengthened understanding of LLMs, GenAI, RAG Agents and models improvements fundamentals and
+                                Built a context-aware AI chatbot using RAG, LangChain, OCI - GenAI Agents and services.                            
+                            </div>
+                        </div>
+                        <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=4824DA2203B028B31F91124DCEB4022096E8DA91D81117F74027D66BD9505AA4" class="cert-verify-btn text-center" target="_blank">
+                            <i class="fas fa-check-circle"></i> Verify Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="from_name" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" name="from_email" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary-custom w-100" id="submitBtn">
+                        <span id="btnText">Send Message</span>
+                        <span id="btnLoading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i> Sending...
+                        </span>
+                    </button>
+                    <div id="formMessage" class="mt-3 text-center" style="display: none;"></div>
+                </form>
+                <div class="social-links">
+                    <a href="https://github.com/ZaisProjects" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/bishal-jaiswal-679758297" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                    <a href="https://wa.me/917684846061?text=Hi%20Bishal!%20I%20visited%20your%20portfolio." target="_blank" class="social-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jaibishal77@gmail.com"
+                        target="_blank" rel="noopener noreferrer" class="social-icon" title="Email via Gmail">
+                        <i class="fas fa-envelope"></i>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bishal Jaiswal. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Resume Modal -->
+    <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resumeModalLabel">My Resume</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Replace 'your-resume.pdf' with your actual PDF path -->
+                    <iframe id="resumeFrame" src="https://drive.google.com/file/d/1YQ3Kx7fApKc3DNTVkrbbnVvmzkxPE7Js/view?usp=sharing"></iframe>
+                    <div class="text-center mt-3">
+                        <a href="https://drive.google.com/file/d/1YQ3Kx7fApKc3DNTVkrbbnVvmzkxPE7Js/view?usp=sharing" download class="btn btn-primary-custom">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
