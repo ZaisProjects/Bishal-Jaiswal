@@ -25,15 +25,15 @@ Git, GitHub, Vercel, Railway
 
 ### Featured Projects
 
-#### 📄 DocFlow
+#### 📄 [[DocFlow](https://docflow-self.vercel.app/)]
 A workspace enabling users to create, edit, organize, share, collab and download documents. 
 
 
-#### 🏢 Book My Venue
+#### 🏢 [[Book My Venue](https://bookmyvenue-nf5p.onrender.com/)]
 A venue booking platform where users can explore, search, and book venues.
 
 
-#### 🎮 Simon Says
+#### 🎮 [[Simon Says](https://zaisprojects.github.io/SimonSays/)]
 An interactive browser-based memory game built using JavaScript.
 
 
